@@ -1,0 +1,25 @@
+2024-08-22 15:34:57 INFO begin to test feature1-scenario1
+2024-08-22 15:34:57 INFO begin to test feature1-scenario2
+2024-08-22 15:34:57 INFO begin to test feature1-scenario3
+2024-08-22 15:34:57 INFO begin to test feature2-scenario1
+2024-08-22 15:34:57 INFO begin to test feature2-scenario2
+2024-08-22 15:34:57 INFO begin to test feature2-scenario3
+2024-08-22 15:34:57 DEBUG Requesting GET https://httpbin.org/get
+2024-08-22 15:34:57 DEBUG Starting new HTTPS connection (1): httpbin.org:443
+2024-08-22 15:34:59 DEBUG https://httpbin.org:443 "GET /get?a=1&b=2 HTTP/11" 200 348
+2024-08-22 15:34:59 DEBUG Response: {
+  "args": {
+    "a": "1", 
+    "b": "2"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-requests/2.32.3", 
+    "X-Amzn-Trace-Id": "Root=1-66c6ea22-3cdc75ae505778452bb20a3d"
+  }, 
+  "origin": "117.186.213.150", 
+  "url": "https://httpbin.org/get?a=1&b=2"
+}
+

@@ -1,0 +1,18 @@
+2024-08-22 16:50:52 DEBUG Request: GET https://httpbin.org/get {'params': {'a': 1, 'b': 2}}
+2024-08-22 16:50:52 DEBUG Starting new HTTPS connection (1): httpbin.org:443
+2024-08-22 16:50:53 DEBUG https://httpbin.org:443 "GET /get?a=1&b=2 HTTP/11" 200 319
+2024-08-22 16:50:53 DEBUG Response: {
+  "args": {
+    "a": "1", 
+    "b": "2"
+  }, 
+  "headers": {
+    "Accept-Encoding": "identity", 
+    "Host": "httpbin.org", 
+    "User-Agent": "python-urllib3/2.2.2", 
+    "X-Amzn-Trace-Id": "Root=1-66c6fbed-2d83a87c6875f518602c80c4"
+  }, 
+  "origin": "117.186.213.150", 
+  "url": "https://httpbin.org/get?a=1&b=2"
+}
+

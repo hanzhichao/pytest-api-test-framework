@@ -1,0 +1,7 @@
+2024-08-22 15:34:21 INFO begin to test feature1-scenario1
+2024-08-22 15:34:21 INFO begin to test feature1-scenario2
+2024-08-22 15:34:21 INFO begin to test feature1-scenario3
+2024-08-22 15:34:21 INFO begin to test feature2-scenario1
+2024-08-22 15:34:21 INFO begin to test feature2-scenario2
+2024-08-22 15:34:21 INFO begin to test feature2-scenario3
+2024-08-22 15:34:21 DEBUG Requesting GET /get

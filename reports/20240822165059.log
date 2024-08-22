@@ -1,0 +1,20 @@
+2024-08-22 16:50:59 DEBUG Request: GET https://postman-echo.com//get {'params': {'a': 1, 'b': 2}}
+2024-08-22 16:50:59 DEBUG Starting new HTTPS connection (1): postman-echo.com:443
+2024-08-22 16:51:01 DEBUG https://postman-echo.com:443 "GET /get?a=1&b=2 HTTP/11" 200 423
+2024-08-22 16:51:01 DEBUG Response: {
+  "args": {
+    "a": "1",
+    "b": "2"
+  },
+  "headers": {
+    "host": "postman-echo.com",
+    "x-forwarded-proto": "http",
+    "x-request-start": "t=1724316660.872",
+    "connection": "close",
+    "x-forwarded-port": "443",
+    "x-amzn-trace-id": "Root=1-66c6fbf4-4d166d990589a7a317f1ac5b",
+    "accept-encoding": "identity",
+    "user-agent": "python-urllib3/2.2.2"
+  },
+  "url": "http://postman-echo.com/get?a=1&b=2"
+}

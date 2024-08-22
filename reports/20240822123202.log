@@ -1,0 +1,10 @@
+2024-08-22 12:32:02 INFO begin to test feature1-scenario1
+2024-08-22 12:32:02 INFO begin to test feature1-scenario2
+2024-08-22 12:32:02 INFO begin to test feature1-scenario3
+2024-08-22 12:32:02 INFO begin to test feature2-scenario1
+2024-08-22 12:32:02 INFO begin to test feature2-scenario2
+2024-08-22 12:32:02 INFO begin to test feature2-scenario3
+2024-08-22 12:32:02 DEBUG Requesting GET https://httpbin.org/get
+2024-08-22 12:32:02 DEBUG Starting new HTTPS connection (1): httpbin.org:443
+2024-08-22 12:32:03 DEBUG https://httpbin.org:443 "GET /get?a=1&b=2 HTTP/11" 200 348
+2024-08-22 12:32:03 DEBUG Response: <Response [200]>

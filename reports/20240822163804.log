@@ -1,0 +1,10 @@
+2024-08-22 16:38:04 DEBUG Request: GET https://httpbin.org/get {'params': {'a': 1, 'b': 2}, 'timeout': 30}
+2024-08-22 16:38:04 DEBUG Starting new HTTPS connection (1): httpbin.org:443
+2024-08-22 16:38:05 DEBUG https://httpbin.org:443 "GET /get?a=1&b=2 HTTP/11" 502 122
+2024-08-22 16:38:05 DEBUG Response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+
